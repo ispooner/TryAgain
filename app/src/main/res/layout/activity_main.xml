@@ -29,8 +29,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         tools:listitem="@layout/support_simple_spinner_dropdown_item"
         android:background="#FFFFFF"
+        android:elevation="1dp"
         />
 
+    <FrameLayout
+        android:id="@+id/main_results_fragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_height="256dp"
+        android:elevation="1dp"
+        android:layout_margin="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#FFFFFF"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
